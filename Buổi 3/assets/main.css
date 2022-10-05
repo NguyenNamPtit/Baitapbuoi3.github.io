@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#a-1{
+    padding-left: 20px;
+}
+#a-2{
+    padding-left: 20px;
+}
+#a-3{
+    padding-left: 20px;
+}
+#a-4{
+    padding-left: 800px;
+}
+.header-1{
+    color: #4f5f69;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#nav li a{
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav > li:hover > a{
+    background-color: #ccc
+    ;
+}
+#nav .subnav li:hover a{
+    background-color: #ccc
+    ;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+#nav .subnav li a{
+    font-size: 15px;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+.header-2 .search-btn{
+    float: right;
+    padding: 0 24px;
+   display: inline;
+
+}
+.header-2{
+    background-color:#00cec9;
+    height: 46px;
+}
+#content-1 {
+    color: brown;
+}
+#info-1{
+    font-weight: 700;
+}
+#info-2{
+    font-weight: 700;
+}
+#content-2{
+    font-size: 20px;
+}
+h2{
+    color: brown;
+}
+.anh-1{
+    padding-left: 100px;
+}
+p{
+    font-size: 20px;
+}
+.anh-2{
+    padding-left: 100px;
+}
+h3{
+    color: brown;
+}
+.footer-1{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
