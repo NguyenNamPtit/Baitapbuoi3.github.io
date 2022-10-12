@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #01e37f;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    margin: auto;
+    padding: 2.5em 0;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+   position: relative;
+   display: flex;
+   justify-content: end;
+   height: 515px;
+}
+.card-img{
+    position: relative;
+    box-shadow: 2px  2px 25px -7px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #69e001;
+    position: absolute;
+    top: 20px;
+    left: -40px;
+}
+#img{
+   width: 350px;
+   height: 330px; 
+   position: relative;
+}
+#img-1{
+    position: absolute;
+    top: 0px;
+    left: -50px;
+}
+#list-icon{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#icon-1{
+    padding-right: 240px;
+}
+#list-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    padding-top: 25px;
+} 
+#img-small{
+    border: 1px solid #ccc;
+    margin-bottom: 22px;
+}
+
+
+#header-1{
+    font-size: 1.5em;
+    color: brown;
+}
+#header-2{
+    color: #ccc;
+    font-size: 0.7em;
+}
+#price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+#price-1{
+    color: red;
+}
+#price-2{
+    color: red;
+    font-size: 2.9em;
+    padding-left: 0.15em;
+}
+#header-select{
+    color: #ccc;
+    font-size: 0.7em;
+    margin-bottom: 1.1em;
+}
+#list-img-1{
+    margin-bottom: 15px;
+}
+#img-small-1{
+    height: 27px;
+    width: 27px;
+}
+#header-info{
+    color: #ccc;
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+}
+#info-1  li{
+    text-align: 0.6em;
+}
+#button-btn{
+    padding: 1.5em 3.1em;
+    border-radius: 7px;
+    font-size: 0.8em;
+    font-weight: 700;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 27px;
+    border: none;
+    box-shadow: 2px 2px 25px -7px rgba(0, 0, 0, 0.5);
+}   
+
+.card-info{
+ width: max-content;
+}
+
+#info-1 p{
+    line-height: 1.2;
+}
+#img-small-1:hover{
+    border: 1px solid black;
+}
+#img-small:hover{
+    border: 1px solid green;
+}
+.footer{
+    position: absolute;
+    left: 500px;
+    top: 550px;
+}
+#footer-1{
+    color: #fff;
+    font-size: 20px;
+}
+#footer-2{
+    font-size: 20px;
+}
+#footer-2:hover{
+    color: red;
+}
