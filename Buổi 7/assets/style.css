@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url('./img/anh1.jpg');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.header{
+    color: white;
+    font-size: 40px;
+    animation: fadeinright 3s ;
+    padding-left: 426px;
+    padding-top: 150px;
+    letter-spacing: 30px;
+
+}
+
+@keyframes fadeinright{
+    from{
+        opacity: 0;
+        padding-left: 0;
+    
+    }
+    to{
+        opacity: 1;
+        padding-left: 426px;
+    }
+}
+
+
+.info{
+    color: white;
+    font-size: 20px;
+    padding-right: 342px;
+    float: right    ;
+   
+    animation: info 7s;
+    letter-spacing: 20px;
+    padding-top: 57px;
+}
+@keyframes info{
+    from{
+        opacity: 0;
+        padding-right: 0;
+    }
+    to{
+        opacity: 1;
+       padding-right: 342px;
+    }
+}
+.button-btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    transform: translateY(80px);
+    margin-left: 40%;
+    animation: btn 10s;
+}
+@keyframes btn{
+    from{
+        opacity: 0;
+        transform: translateY(180px);
+        margin-left: 40%;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(80px);
+    }
+}
