@@ -46,7 +46,7 @@
     animation: info 7s;
     letter-spacing: 20px;
     padding-top: 57px;
-    animation-delay:3s ;
+    /* animation-delay:3s ; */
 }
 @keyframes info{
     from{
