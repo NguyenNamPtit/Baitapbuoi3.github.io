@@ -209,12 +209,50 @@ h5{
 .list-img{
     display: flex;
     padding-top: 70px;
+    justify-content: space-between
 }
-h6{
+h6,h7,h8,h9,h10,h11{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+}
+.info-6{
+    width: 379px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.list-img-1{
+    padding-right: 31.5px;
+}
+.anh-2{
+    width:371px ;
+    height: 302px;
+}
+.list-img-2{
+    padding-right: 31.5px;
+}
+.anh-3{
+    width: 371px;
+    height: 302px;
+    
+}
+.anh-4{
+    width: 371px;
+    height: 302px;
+}
+.list-img-src{
+    display: flex;
+    margin-top: 32px;
+}
+.list-img-3,.list-img-4{
+    padding-right: 31.5px;
 }
