@@ -262,3 +262,6 @@ h6,h7,h8,h9,h10,h11{
 .list-img-3,.list-img-4{
     padding-right: 31.5px;
 }
+h4,h5{
+    border-left:2px solid #0f2480 ;
+}
